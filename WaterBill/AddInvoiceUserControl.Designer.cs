@@ -77,18 +77,18 @@
             CustomerIDInput.Location = new Point(3, 81);
             CustomerIDInput.Name = "CustomerIDInput";
             CustomerIDInput.Size = new Size(132, 23);
-            CustomerIDInput.TabIndex = 2;
+            CustomerIDInput.TabIndex = 0;
             // 
             // CustomerNameInput
             // 
             CustomerNameInput.Location = new Point(197, 81);
             CustomerNameInput.Name = "CustomerNameInput";
             CustomerNameInput.Size = new Size(139, 23);
-            CustomerNameInput.TabIndex = 2;
+            CustomerNameInput.TabIndex = 1;
             // 
             // ThisMonthInput
             // 
-            ThisMonthInput.Location = new Point(3, 139);
+            ThisMonthInput.Location = new Point(3, 131);
             ThisMonthInput.Name = "ThisMonthInput";
             ThisMonthInput.Size = new Size(132, 23);
             ThisMonthInput.TabIndex = 2;
@@ -96,17 +96,17 @@
             // 
             // LastMonthInput
             // 
-            LastMonthInput.Location = new Point(197, 139);
+            LastMonthInput.Location = new Point(197, 131);
             LastMonthInput.Name = "LastMonthInput";
             LastMonthInput.Size = new Size(139, 23);
-            LastMonthInput.TabIndex = 2;
+            LastMonthInput.TabIndex = 3;
             // 
             // NumberOfPeopleInput
             // 
-            NumberOfPeopleInput.Location = new Point(197, 205);
+            NumberOfPeopleInput.Location = new Point(194, 181);
             NumberOfPeopleInput.Name = "NumberOfPeopleInput";
             NumberOfPeopleInput.Size = new Size(139, 23);
-            NumberOfPeopleInput.TabIndex = 2;
+            NumberOfPeopleInput.TabIndex = 5;
             NumberOfPeopleInput.TextChanged += textBox3_TextChanged;
             // 
             // label3
@@ -123,7 +123,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(0, 115);
+            label4.Location = new Point(0, 107);
             label4.Name = "label4";
             label4.Size = new Size(150, 21);
             label4.TabIndex = 3;
@@ -133,7 +133,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F);
-            label6.Location = new Point(0, 181);
+            label6.Location = new Point(3, 157);
             label6.Name = "label6";
             label6.Size = new Size(132, 21);
             label6.TabIndex = 3;
@@ -143,7 +143,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F);
-            label7.Location = new Point(197, 115);
+            label7.Location = new Point(197, 107);
             label7.Name = "label7";
             label7.Size = new Size(150, 21);
             label7.TabIndex = 3;
@@ -153,7 +153,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 12F);
-            label9.Location = new Point(200, 181);
+            label9.Location = new Point(197, 157);
             label9.Name = "label9";
             label9.Size = new Size(136, 21);
             label9.TabIndex = 3;
@@ -165,10 +165,10 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.Desktop;
-            button1.Location = new Point(225, 251);
+            button1.Location = new Point(222, 216);
             button1.Name = "button1";
             button1.Size = new Size(111, 30);
-            button1.TabIndex = 4;
+            button1.TabIndex = 6;
             button1.Text = "Calculate";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -178,16 +178,16 @@
             TypeOfCustomerInput.DropDownStyle = ComboBoxStyle.DropDownList;
             TypeOfCustomerInput.FormattingEnabled = true;
             TypeOfCustomerInput.Items.AddRange(new object[] { "Household customer", "Administrative agency, public services", "Production units", "Business services" });
-            TypeOfCustomerInput.Location = new Point(3, 205);
+            TypeOfCustomerInput.Location = new Point(3, 181);
             TypeOfCustomerInput.Name = "TypeOfCustomerInput";
             TypeOfCustomerInput.Size = new Size(132, 23);
-            TypeOfCustomerInput.TabIndex = 5;
+            TypeOfCustomerInput.TabIndex = 4;
             TypeOfCustomerInput.SelectedIndexChanged += TypeOfCustomerInput_SelectedIndexChanged;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(14, 251);
+            label5.Location = new Point(3, 217);
             label5.Name = "label5";
             label5.Size = new Size(54, 15);
             label5.TabIndex = 6;
@@ -196,7 +196,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(14, 275);
+            label8.Location = new Point(3, 240);
             label8.Name = "label8";
             label8.Size = new Size(50, 15);
             label8.TabIndex = 6;
@@ -205,7 +205,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(14, 299);
+            label10.Location = new Point(3, 264);
             label10.Name = "label10";
             label10.Size = new Size(51, 15);
             label10.TabIndex = 6;
@@ -214,7 +214,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(175, 316);
+            label11.Location = new Point(169, 262);
             label11.Name = "label11";
             label11.Size = new Size(36, 15);
             label11.TabIndex = 6;
@@ -223,7 +223,7 @@
             // resultSubtotal
             // 
             resultSubtotal.AutoSize = true;
-            resultSubtotal.Location = new Point(74, 251);
+            resultSubtotal.Location = new Point(63, 216);
             resultSubtotal.Name = "resultSubtotal";
             resultSubtotal.Size = new Size(0, 15);
             resultSubtotal.TabIndex = 7;
@@ -231,7 +231,7 @@
             // resultEnvFee
             // 
             resultEnvFee.AutoSize = true;
-            resultEnvFee.Location = new Point(74, 275);
+            resultEnvFee.Location = new Point(63, 240);
             resultEnvFee.Name = "resultEnvFee";
             resultEnvFee.Size = new Size(0, 15);
             resultEnvFee.TabIndex = 8;
@@ -239,7 +239,7 @@
             // resultVATFee
             // 
             resultVATFee.AutoSize = true;
-            resultVATFee.Location = new Point(71, 299);
+            resultVATFee.Location = new Point(60, 264);
             resultVATFee.Name = "resultVATFee";
             resultVATFee.Size = new Size(0, 15);
             resultVATFee.TabIndex = 9;
@@ -247,7 +247,7 @@
             // resultTotal
             // 
             resultTotal.AutoSize = true;
-            resultTotal.Location = new Point(217, 316);
+            resultTotal.Location = new Point(222, 264);
             resultTotal.Name = "resultTotal";
             resultTotal.Size = new Size(0, 15);
             resultTotal.TabIndex = 10;
@@ -256,6 +256,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.AliceBlue;
             BackgroundImageLayout = ImageLayout.Center;
             Controls.Add(resultTotal);
             Controls.Add(resultVATFee);
